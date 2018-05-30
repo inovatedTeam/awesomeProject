@@ -4,6 +4,7 @@ import Card from './card';
 import CardItem from './cardItem';
 import Button from './button';
 
+
 const AlbumDetail = ({ album }) => {
     const { title, artist, thumbnail_image, image, url } = album;
     const { thumbnailContainerStyle, thumbnalStyle, headerContentStyle, mainImageStyle } = styles;
